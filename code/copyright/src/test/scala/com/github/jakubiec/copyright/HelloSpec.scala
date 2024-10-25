@@ -7,7 +7,7 @@ class HelloSpec extends AnyWordSpec with Matchers {
 
   "The Hello object" should {
     "say hello" in {
-      Hello.greeting shouldEqual "hello"
+      Hello.greeting shouldBe "hello"
     }
   }
 }
